@@ -1,13 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{21A13D1E-7ED4-4E53-9688-6115FDF1FAF1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{9885FCD9-786F-4C3E-8B6D-FD41CF70467F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLServer_DBA_Scripts", "src\Scripts\SQLServer_DBA_Scripts\SQLServer_DBA_Scripts.csproj", "{0B959BF7-45CA-4185-A38D-48189D074DF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLServer_DBA_Scripts", "src\Scripts\SQLServer_DBA_Scripts\SQLServer_DBA_Scripts.csproj", "{0B959BF7-45CA-4185-A38D-48189D074DF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NoSQL", "NoSQL", "{907A43A3-F28F-427F-ABC3-9EAA645134B7}"
+	ProjectSection(SolutionItems) = preProject
+		src\NoSQL\MongoDB_CheatSheet.pdf = src\NoSQL\MongoDB_CheatSheet.pdf
+		src\NoSQL\NoSQL_Databases_Compare.jpg = src\NoSQL\NoSQL_Databases_Compare.jpg
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLServer_Scripts", "src\Scripts\SQLServer_Scripts\SQLServer_Scripts.csproj", "{845BE5D7-1786-4216-9A0D-3CEE6E8389F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0B959BF7-45CA-4185-A38D-48189D074DF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -34,9 +39,29 @@ Global
 		{0B959BF7-45CA-4185-A38D-48189D074DF9}.Release|x64.Build.0 = Release|Any CPU
 		{0B959BF7-45CA-4185-A38D-48189D074DF9}.Release|x86.ActiveCfg = Release|Any CPU
 		{0B959BF7-45CA-4185-A38D-48189D074DF9}.Release|x86.Build.0 = Release|Any CPU
+		{845BE5D7-1786-4216-9A0D-3CEE6E8389F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{845BE5D7-1786-4216-9A0D-3CEE6E8389F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{845BE5D7-1786-4216-9A0D-3CEE6E8389F0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{845BE5D7-1786-4216-9A0D-3CEE6E8389F0}.Debug|x64.Build.0 = Debug|Any CPU
+		{845BE5D7-1786-4216-9A0D-3CEE6E8389F0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{845BE5D7-1786-4216-9A0D-3CEE6E8389F0}.Debug|x86.Build.0 = Debug|Any CPU
+		{845BE5D7-1786-4216-9A0D-3CEE6E8389F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{845BE5D7-1786-4216-9A0D-3CEE6E8389F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{845BE5D7-1786-4216-9A0D-3CEE6E8389F0}.Release|x64.ActiveCfg = Release|Any CPU
+		{845BE5D7-1786-4216-9A0D-3CEE6E8389F0}.Release|x64.Build.0 = Release|Any CPU
+		{845BE5D7-1786-4216-9A0D-3CEE6E8389F0}.Release|x86.ActiveCfg = Release|Any CPU
+		{845BE5D7-1786-4216-9A0D-3CEE6E8389F0}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9885FCD9-786F-4C3E-8B6D-FD41CF70467F} = {21A13D1E-7ED4-4E53-9688-6115FDF1FAF1}
 		{0B959BF7-45CA-4185-A38D-48189D074DF9} = {9885FCD9-786F-4C3E-8B6D-FD41CF70467F}
+		{907A43A3-F28F-427F-ABC3-9EAA645134B7} = {21A13D1E-7ED4-4E53-9688-6115FDF1FAF1}
+		{845BE5D7-1786-4216-9A0D-3CEE6E8389F0} = {9885FCD9-786F-4C3E-8B6D-FD41CF70467F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB6BBA63-1A0C-455E-BAD8-1F1965CA1FDB}
 	EndGlobalSection
 EndGlobal
