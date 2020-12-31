@@ -11,11 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLServer_DBA_Scripts", "sr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NoSQL", "NoSQL", "{907A43A3-F28F-427F-ABC3-9EAA645134B7}"
 	ProjectSection(SolutionItems) = preProject
+		src\NoSQL\MongoDB.docx = src\NoSQL\MongoDB.docx
 		src\NoSQL\MongoDB_CheatSheet.pdf = src\NoSQL\MongoDB_CheatSheet.pdf
 		src\NoSQL\NoSQL_Databases_Compare.jpg = src\NoSQL\NoSQL_Databases_Compare.jpg
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLServer_Scripts", "src\Scripts\SQLServer_Scripts\SQLServer_Scripts.csproj", "{845BE5D7-1786-4216-9A0D-3CEE6E8389F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLServer_Scripts", "src\Scripts\SQLServer_Scripts\SQLServer_Scripts.csproj", "{845BE5D7-1786-4216-9A0D-3CEE6E8389F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PostgreSQL", "PostgreSQL", "{EF33FFE0-B91A-45D0-9FCB-DAB9B9C2AE55}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Check\OK\PostgreSQL.docx = ..\..\..\Check\OK\PostgreSQL.docx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,6 +66,7 @@ Global
 		{0B959BF7-45CA-4185-A38D-48189D074DF9} = {9885FCD9-786F-4C3E-8B6D-FD41CF70467F}
 		{907A43A3-F28F-427F-ABC3-9EAA645134B7} = {21A13D1E-7ED4-4E53-9688-6115FDF1FAF1}
 		{845BE5D7-1786-4216-9A0D-3CEE6E8389F0} = {9885FCD9-786F-4C3E-8B6D-FD41CF70467F}
+		{EF33FFE0-B91A-45D0-9FCB-DAB9B9C2AE55} = {21A13D1E-7ED4-4E53-9688-6115FDF1FAF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BB6BBA63-1A0C-455E-BAD8-1F1965CA1FDB}
