@@ -21,6 +21,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PostgreSQL", "PostgreSQL", "{EF33FFE0-B91A-45D0-9FCB-DAB9B9C2AE55}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\Check\OK\PostgreSQL.docx = ..\..\..\Check\OK\PostgreSQL.docx
+		TextFile1.txt = TextFile1.txt
 	EndProjectSection
 EndProject
 Global
